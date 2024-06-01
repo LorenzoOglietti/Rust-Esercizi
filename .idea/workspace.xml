@@ -8,10 +8,14 @@
     <cargoProject FILE="$PROJECT_DIR$/Esercizio1/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/Esercizio3/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/Esercizio5/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Esercizio6/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Esercizio7/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Esercizio8/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Esercizio9/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6408cd3f-0624-45d7-9343-1ae5c5b1be9b" name="Changes" comment="A">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Esercizio6/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Esercizio6/target/.rustc_info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +51,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cargo.Run Esercizio3.executor": "Run",
+    "Cargo.Run Esercizio9.executor": "Run",
     "Cargo.Test test::test.executor": "Run",
     "Cargo.Test test::tests (1).executor": "Run",
     "Cargo.Test test::tests (2).executor": "Run",
+    "Cargo.Test test::tests (3).executor": "Run",
+    "Cargo.Test test::tests (4).executor": "Run",
+    "Cargo.Test test::tests (5).executor": "Run",
     "Cargo.Test test::tests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
@@ -67,17 +75,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio9" />
+      <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio8" />
+      <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio7" />
       <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio6" />
       <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio5" />
-      <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio3" />
-      <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio2_4\src" />
-      <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio2_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Test test::tests (2)">
-    <configuration name="Run Esercizio3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package Esercizio3 --bin Esercizio3" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio3" />
+  <component name="RunManager" selected="Cargo.Run Esercizio9">
+    <configuration name="Run Esercizio9" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package Esercizio9 --bin Esercizio9" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio9" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -109,40 +117,6 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test test::test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package Esercizio2_4 --test Esercizio2_4 test" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio2_4" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test test::tests (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package Esercizio1 --test Esercizio1 tests" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio1" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test test::tests (2)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="test --package Esercizio5 --test Esercizio5 tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio5" />
@@ -160,9 +134,43 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test test::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package Esercizio5 --test test tests" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio5" />
+    <configuration name="Test test::tests (3)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package Esercizio6 --test Esercizio6 tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio6" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test::tests (4)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package Esercizio7 --test Esercizio7 tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio7" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test::tests (5)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package Esercizio8 --test Esercizio8 tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio8" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -179,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run Esercizio9" />
+        <item itemvalue="Cargo.Test test::tests (5)" />
+        <item itemvalue="Cargo.Test test::tests (4)" />
+        <item itemvalue="Cargo.Test test::tests (3)" />
         <item itemvalue="Cargo.Test test::tests (2)" />
-        <item itemvalue="Cargo.Test test::tests (1)" />
-        <item itemvalue="Cargo.Test test::tests" />
-        <item itemvalue="Cargo.Run Esercizio3" />
-        <item itemvalue="Cargo.Test test::test" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717236797478</updated>
       <workItem from="1717236798972" duration="236000" />
-      <workItem from="1717237078104" duration="409000" />
+      <workItem from="1717237078104" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="A">
       <option name="closed" value="true" />
@@ -209,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717236977902</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="A">
+      <option name="closed" value="true" />
+      <created>1717237571352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717237571352</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
