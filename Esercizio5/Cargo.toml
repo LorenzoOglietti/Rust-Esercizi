@@ -1,0 +1,15 @@
+[package]
+name = "Esercizio5"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+[lib]
+name = "Esercizio5"
+path = "../../Rust-Esercizi/Esercizio5/src/lib/lib.rs"
+
+[[test]]
+name = "Esercizio5"
+path = "tests/test.rs"

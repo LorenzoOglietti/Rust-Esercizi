@@ -3,8 +3,95 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
-  <component name="PropertiesComponent">{}</component>
-  <component name="RunManager" selected="Cargo.Test test::test">
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Esercizio2_4/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Esercizio1/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Esercizio3/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Esercizio5/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6408cd3f-0624-45d7-9343-1ae5c5b1be9b" name="Changes" comment="A">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Mbarello&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mbarello/Rust-Esercizi.git&quot;,
+    &quot;accountId&quot;: &quot;4d642abd-f816-445b-b010-433f49c91a35&quot;
+  }
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="sc80go9z" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2hH2gzPtE01yC3pFqieHg0Us1M0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Run Esercizio3.executor": "Run",
+    "Cargo.Test test::test.executor": "Run",
+    "Cargo.Test test::tests (1).executor": "Run",
+    "Cargo.Test test::tests (2).executor": "Run",
+    "Cargo.Test test::tests.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/lolli/OneDrive/Desktop/Università/Magistrale/I Anno/II Semestre/Sistemi distribuiti e Big Data/Rust-Esercizi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.disableDetachedFileInspectionC:/Users/lolli/OneDrive/Desktop/Università/Magistrale/I Anno/II Semestre/Sistemi distribuiti e Big Data/Rust-Esercizi/Esercizio5/src/lib/conto_bancario.rs": "true",
+    "org.rust.disableDetachedFileInspectionC:/Users/lolli/OneDrive/Desktop/Università/Magistrale/I Anno/II Semestre/Sistemi distribuiti e Big Data/Rust-Esercizi/Esercizio5/src/lib/lib.rs": "true",
+    "org.rust.first.attach.projects": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio6" />
+      <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio5" />
+      <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio3" />
+      <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio2_4\src" />
+      <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio2_4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo.Test test::tests (2)">
+    <configuration name="Run Esercizio3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package Esercizio3 --bin Esercizio3" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio3" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package Rust-Esercizi --bin Rust-Esercizi" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -39,8 +126,43 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run" />
+    <configuration name="Test test::tests (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package Esercizio1 --test Esercizio1 tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio1" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test::tests (2)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package Esercizio5 --test Esercizio5 tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio5" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package Esercizio5 --test test tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/Esercizio5" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -57,8 +179,44 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test test::tests (2)" />
+        <item itemvalue="Cargo.Test test::tests (1)" />
+        <item itemvalue="Cargo.Test test::tests" />
+        <item itemvalue="Cargo.Run Esercizio3" />
         <item itemvalue="Cargo.Test test::test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6408cd3f-0624-45d7-9343-1ae5c5b1be9b" name="Changes" comment="" />
+      <created>1717236797478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717236797478</updated>
+      <workItem from="1717236798972" duration="236000" />
+      <workItem from="1717237078104" duration="409000" />
+    </task>
+    <task id="LOCAL-00001" summary="A">
+      <option name="closed" value="true" />
+      <created>1717236977902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717236977902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="A" />
+    <option name="LAST_COMMIT_MESSAGE" value="A" />
   </component>
 </project>
