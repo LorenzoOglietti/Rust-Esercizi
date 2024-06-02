@@ -15,7 +15,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6408cd3f-0624-45d7-9343-1ae5c5b1be9b" name="Changes" comment="A">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Esercizio1/src/lib/anagrammi.rs" beforeDir="false" afterPath="$PROJECT_DIR$/Esercizio1/src/lib/anagrammi.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Esercizio3/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Esercizio3/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Esercizio5/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Esercizio5/target/.rustc_info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Esercizio6/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Esercizio6/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Esercizio7/src/lib/double_linked_list.rs" beforeDir="false" afterPath="$PROJECT_DIR$/Esercizio7/src/lib/double_linked_list.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Esercizio7/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Esercizio7/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Esercizio9/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Esercizio9/target/.rustc_info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,31 +55,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cargo.Run Esercizio3.executor": "Run",
-    "Cargo.Run Esercizio9.executor": "Run",
-    "Cargo.Test test::test.executor": "Run",
-    "Cargo.Test test::tests (1).executor": "Run",
-    "Cargo.Test test::tests (2).executor": "Run",
-    "Cargo.Test test::tests (3).executor": "Run",
-    "Cargo.Test test::tests (4).executor": "Run",
-    "Cargo.Test test::tests (5).executor": "Run",
-    "Cargo.Test test::tests.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/lolli/OneDrive/Desktop/Università/Magistrale/I Anno/II Semestre/Sistemi distribuiti e Big Data/Rust-Esercizi",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "org.rust.disableDetachedFileInspectionC:/Users/lolli/OneDrive/Desktop/Università/Magistrale/I Anno/II Semestre/Sistemi distribuiti e Big Data/Rust-Esercizi/Esercizio5/src/lib/conto_bancario.rs": "true",
-    "org.rust.disableDetachedFileInspectionC:/Users/lolli/OneDrive/Desktop/Università/Magistrale/I Anno/II Semestre/Sistemi distribuiti e Big Data/Rust-Esercizi/Esercizio5/src/lib/lib.rs": "true",
-    "org.rust.first.attach.projects": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Run Esercizio3.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run Esercizio9.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test test::test.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test test::tests (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test test::tests (2).executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test test::tests (3).executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test test::tests (4).executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test test::tests (5).executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test test::tests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lolli/OneDrive/Desktop/Università/Magistrale/I Anno/II Semestre/Sistemi distribuiti e Big Data/Rust-Esercizi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/lolli/OneDrive/Desktop/Università/Magistrale/I Anno/II Semestre/Sistemi distribuiti e Big Data/Rust-Esercizi/Esercizio5/src/lib/conto_bancario.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/lolli/OneDrive/Desktop/Università/Magistrale/I Anno/II Semestre/Sistemi distribuiti e Big Data/Rust-Esercizi/Esercizio5/src/lib/lib.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lolli\OneDrive\Desktop\Università\Magistrale\I Anno\II Semestre\Sistemi distribuiti e Big Data\Rust-Esercizi\Esercizio9" />
@@ -207,7 +214,11 @@
       <option name="presentableId" value="Default" />
       <updated>1717236797478</updated>
       <workItem from="1717236798972" duration="236000" />
-      <workItem from="1717237078104" duration="763000" />
+      <workItem from="1717237078104" duration="914000" />
+      <workItem from="1717246724016" duration="5126000" />
+      <workItem from="1717320590172" duration="55000" />
+      <workItem from="1717336784112" duration="1302000" />
+      <workItem from="1717340112937" duration="803000" />
     </task>
     <task id="LOCAL-00001" summary="A">
       <option name="closed" value="true" />
@@ -225,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717237571352</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="A">
+      <option name="closed" value="true" />
+      <created>1717237870529</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717237870529</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

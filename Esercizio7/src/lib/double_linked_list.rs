@@ -115,10 +115,10 @@ pub mod double_linked_list {
             self.size += 1;*/
 
             let node = Rc::new(RefCell::new(Node::new(item)));
-            if let Some(prev_tail) = self.tail.take() {
-                prev_tail.borrow_mut().next = Some(Rc::clone(&node));
-                node.borrow_mut().prev = Some(prev_tail);
-                self.tail = Some(node);
+            if let Some(prev_tail) = self.tail.take() { //Se esiste un nodo di coda
+                prev_tail.borrow_mut().next = Some(Rc::clone(&node)); //Aggiorna next al nodo di coda
+                node.borrow_mut().prev = Some(prev_tail); //Imposta prev del nuovo nodo al vecchio nodo di coda
+                self.tail = Some(node); //imposta Tail al nuovo nodo
                 self.size += 1;
             } else {
                 self.head = Some(Rc::clone(&node));
@@ -185,15 +185,15 @@ pub mod double_linked_list {
 
             return item;*/
 
-            self.tail.take().map(|prev_tail| {
+            self.tail.take().map(|prev_tail| { //prende e rimuove il nodo di coda
                 self.size -= 1;
-                match prev_tail.borrow_mut().prev.take() {
+                match prev_tail.borrow_mut().prev.take() { //se esiste un nodo precedente
                     Some(node) => {
                         node.borrow_mut().next = None;
                         self.tail = Some(node);
-                    }
+                    } //Se c'è un valore aggiorna next del nodo precedente e imposta tail al nodo precedente
                     None => {
-                        self.head.take();
+                        self.head.take(); //Se non esiste un nodo precedente imposta head a None
                     }
                 }
                 Rc::try_unwrap(prev_tail).ok().unwrap().into_inner().item
