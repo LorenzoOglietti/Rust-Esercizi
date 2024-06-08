@@ -48,6 +48,7 @@ fn main() {
         let (main_mittente, figlio_ricevitore) = mpsc::channel::<AuctionItem>();
         let (figlio_mittente, main_ricevitore) = mpsc::channel();
         let (main_termine, figlio_termine) = mpsc::channel();
+        //Io potevo creare due canali, n dal main ai figli e uno per ogni figlio dal figlio al main. Per far ciò mi basta mettere un tipo generico al canale
 
         channels_conf.push(main_conf.clone());
         channels_conf_ack.push(main_conf_acked);

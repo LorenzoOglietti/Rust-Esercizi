@@ -19,14 +19,16 @@ pub mod conto_bancario {
         /// * `name` - Una stringa che rappresenta il nome del cliente.
 
         pub fn new(name: String) -> ContoBancario {
-            ContoBancario {
+            let mut  conto = ContoBancario {
                 state: Some(Box::new(Argento {})),
                 customer_name: name,
                 total: 0,
                 max_limit: 10000,
                 min_limit: -10000,
                 interest: 5,
-            }
+            };
+            conto.update_state();
+            conto
         }
 
         /// Deposita una quantità nel saldo del conto bancario.
@@ -59,6 +61,7 @@ pub mod conto_bancario {
             if let Some(state) = self.state.take() {
                 self.state = Some(state.preleva(self, qty));
             }
+            self.update_state()
         }
 
         /// Paga gli interessi sul saldo del conto bancario.
@@ -67,11 +70,12 @@ pub mod conto_bancario {
             if let Some(state) = self.state.take() {
                 self.state = Some(state.paga_interessi(self));
             }
+            self.update_state()
         }
 
         /// Aggiorna lo stato del conto bancario in base al saldo corrente.
 
-        fn update_state(&mut self) {
+        pub fn update_state(&mut self) {
             if let Some(state) = self.state.take() {
                 self.state = if self.total < self.min_limit {
                     Some(Box::new(Rosso {}))
@@ -143,6 +147,8 @@ pub mod conto_bancario {
             conto.total = newtotal;
             if newtotal < conto.min_limit {
                 Box::new(Rosso {})
+            } else if newtotal > conto.max_limit{
+                Box::new(Oro {})
             } else {
                 Box::new(Argento {})
             }
@@ -160,7 +166,9 @@ pub mod conto_bancario {
         fn paga_interessi(&self, conto: &mut ContoBancario) -> Box<dyn State> {
             let newtotal = conto.total + (conto.total * conto.interest) / 100;
             conto.total = newtotal;
-            if newtotal > conto.max_limit {
+            if newtotal < conto.min_limit {
+                Box::new(Rosso {})
+            } else if newtotal > conto.max_limit {
                 Box::new(Oro {})
             } else {
                 Box::new(Argento {})

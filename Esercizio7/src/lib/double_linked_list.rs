@@ -193,10 +193,10 @@ pub mod double_linked_list {
                         self.tail = Some(node);
                     } //Se c'è un valore aggiorna next del nodo precedente e imposta tail al nodo precedente
                     None => {
-                        self.head.take(); //Se non esiste un nodo precedente imposta head a None
+                        self.head.take(); //Se non esiste un nodo precedente imposta head a None consumando la head
                     }
                 }
-                Rc::try_unwrap(prev_tail).ok().unwrap().into_inner().item
+                Rc::try_unwrap(prev_tail).ok().unwrap().into_inner().item //restituisce l'elemento del nodo rimosso
             })
         }
         /// Rimuove e restituisce l'elemento dall'inizio della lista.
